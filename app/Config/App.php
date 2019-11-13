@@ -63,7 +63,7 @@ class App extends BaseConfig
 	| should run under for this request.
 	|
 	*/
-	public $defaultLocale = 'en';
+	public $defaultLocale = 'pt-br';
 
 	/*
 	|--------------------------------------------------------------------------
@@ -92,7 +92,7 @@ class App extends BaseConfig
 
 	/*
 	|--------------------------------------------------------------------------
-	| Application Timezone
+	| Applicacdtion Timezone
 	|--------------------------------------------------------------------------
 	|
 	| The default timezone that will be used in your application to display

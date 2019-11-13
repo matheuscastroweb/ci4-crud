@@ -29,3 +29,7 @@ INSERT INTO news VALUES
 
 
 Using for php sem o *amp .
+
+Add traslation pt-br
+
+Softdelete
