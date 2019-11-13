@@ -26,7 +26,7 @@ class NewsModel extends Model
     {
         if ($id === false) {
             //Caso queira trazer o deletado com o deletedAt preenchido
-            $this->withDeleted();
+            //$this->withDeleted();
             return $this->findAll();
         }
         return $this->asArray()
