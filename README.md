@@ -41,6 +41,9 @@ Arquivo onde será armazenado dados como conexão com o banco de dados.
 - Utilização do soft delete: 
 Funcionalidade que implementa um recurso de exclusão diferenciado integrado no CI4.
 
+- Utilização de seeds: 
+Funciolidade para incluir dados de testes no banco de dados  `$ php spark db:seed TestSeeder`.
+
 
 ### Banco de dados utilizado
 ```sql
