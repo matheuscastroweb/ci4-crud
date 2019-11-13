@@ -22,12 +22,14 @@ Com o PHP Funcionando utilize o comando `php spark serve` dentro da pasta que se
 ##### Alterações do CI3 para o  CI4: 
 - Estrutura de pastas
 
-|  CI3 | CI4  | Alterações  |
-| ------------ | ------------ |
+| CI3 | CI4 | Alterações |
+| ------ | ------ | ------ |
 | application  | app  | Sem alterações |
-|   | public  | Diretório onde será apontado o .HTACESS|
+| - | public  | Diretório onde será apontado o .HTACESS|
 |  system | system  | Sem alterações |
-|   | writable  | Diretório para lidar com arquivos |
+| -  | writable  | Diretório para lidar com arquivos |
+
+
 
 - Adição de namespaces
 Primeiro para organizar seus tipos logicamente. É como se você colocasse determinados tipos (classes, estruturas, enumerações, delegações, interfaces, etc.) que são relacionados de alguma forma em uma mesma "caixa".
