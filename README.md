@@ -29,15 +29,16 @@ Com o PHP Funcionando utilize o comando `$ php spark serve` dentro da pasta que 
 |  system | system  | Sem alterações |
 | -  | writable  | Diretório para lidar com arquivos |
 
+- CodeIgniter\RESTful\ResourceController: 
+Permite trabalhar com o CI4 as usabilidades de uma API RESTFul nativa. 
 
-
-- Adição de namespaces
+- Adição de namespaces: 
 Primeiro para organizar seus tipos logicamente. É como se você colocasse determinados tipos (classes, estruturas, enumerações, delegações, interfaces, etc.) que são relacionados de alguma forma em uma mesma "caixa".
 
-- Adição o arquivo .env
+- Adição o arquivo .env: 
 Arquivo onde será armazenado dados como conexão com o banco de dados.
 
-- Utilização do soft delete
+- Utilização do soft delete: 
 Funcionalidade que implementa um recurso de exclusão diferenciado integrado no CI4.
 
 
