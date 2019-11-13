@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
+use CodeIgniter\HTTP\Request;
 
 class NewsRest extends ResourceController
 {
@@ -11,6 +12,7 @@ class NewsRest extends ResourceController
 
     public function index()
     {
+       
         return $this->respond($this->model->findAll());
     }
 
