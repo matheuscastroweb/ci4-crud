@@ -12,7 +12,7 @@
 extension=mbstring
 extension=mysqli
 ```
-Adicione o PHP ao PATH do seu sistema. Caso ao rodar o `php -v` dê erro de biblioteca não encontrada, coloque o diretório onde se encontram as libraries no campo:
+Adicione o PHP ao PATH do seu sistema. Caso ao rodar o `$ php -v` dê erro de biblioteca não encontrada, coloque o diretório onde se encontram as libraries no campo:
 ```php
 extension_dir = "C:\caminho\php\ext"
 ```
