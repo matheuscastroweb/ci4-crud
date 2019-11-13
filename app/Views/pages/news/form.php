@@ -1,4 +1,4 @@
-<?= isset($id) ? "Editando notícia" : "Cadastrar nova notícia" ?>
+<h2><?= isset($id) ? "Editando notícia" : "Cadastrar nova notícia" ?></h2>
 <?= \Config\Services::validation()->listErrors(); ?>
 <form action="/news/store" method="POST" class="">
 

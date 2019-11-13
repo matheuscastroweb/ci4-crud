@@ -13,6 +13,11 @@ class News extends Controller
 
         $data['news'] = $model->getNews();
 
+        $data['title_page'] = "News";
+        $data['description_page'] = "Descrição da página news";
+        $data['keywords_page'] = "noticias, novidades";
+
+
         echo view('templates/header', $data);
         echo view('pages/news/overview', $data);
         echo view('templates/footer', $data);
@@ -66,6 +71,8 @@ class News extends Controller
                 'body'  => $this->request->getVar('body')
 
             ]);
+
+            log_message('info', 'Inserção no banco de dados.');
 
             //Redirect atualizado tb do ci3 para o ci4
             return redirect()->to('/news');
