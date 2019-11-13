@@ -1,4 +1,17 @@
 <?php
+/**
+ * Image language strings.
+ *
+ * @package      CodeIgniter
+ * @author       CodeIgniter Dev Team
+ * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
+ * @license      https://opensource.org/licenses/MIT	MIT License
+ * @link         https://codeigniter.com
+ * @since        Version 3.0.0
+ * @filesource
+ *
+ * @codeCoverageIgnore
+ */
 
 return [
 	'sourceImageRequired'    => 'Você deve especificar uma imagem de origem em suas preferências.',
@@ -7,9 +20,8 @@ return [
 	'gifNotSupported'        => 'Imagens GIF geralmente não são suportadas devido a restrições de licenciamento. Você pode ter que usar imagens JPG ou PNG em vez disso',
 	'jpgNotSupported'        => 'Imagens JPG não são suportadas.',
 	'pngNotSupported'        => 'Imagens PNG não são suportadas.',
-	'unsupportedImagecreate' => 'Seu servidor não suporta a função GD necessária para processar este tipo de imagem.',
+	'unsupportedImageCreate' => 'Seu servidor não suporta a função GD necessária para processar este tipo de imagem.',
 	'jpgOrPngRequired'       => 'O protocolo de redimensionamento de imagem especificado nas suas preferências só funciona com os tipos de imagem JPEG ou PNG.',
-	'copyError'              => 'Um erro foi encontrado ao tentar substituir o arquivo. Por favor, certifique-se de que seu diretório de arquivos é gravável.',
 	'rotateUnsupported'      => 'A rotação de imagem não parece ser suportada pelo seu servidor.',
 	'libPathInvalid'         => 'O caminho para a sua biblioteca de imagens não está correto. Por favor, defina o caminho correto nas suas preferências de imagem.',
 	'imageProcessFailed'     => 'O processamento de imagem falhou. Por favor, verifique se o seu servidor suporta o protocolo escolhido e se o caminho para a sua biblioteca de imagens está correto.',

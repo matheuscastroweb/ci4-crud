@@ -5,7 +5,7 @@
 - Ou baixe direto do site: [PHP](https://www.php.net/downloads.php "PHP Dowload")
 
 ##### Observações: 
-- Neste projeto a language já está traduzida para a versão PT-BR  de acordo com o repositório [CodeIgniter4-pt-BR](https://github.com/natanfelles/CodeIgniter4-pt-BR "CodeIgniter4-pt-BR")
+- Neste projeto a language já está traduzida para a versão PT-BR  de acordo com o repositório [codeigniter4-translations](https://github.com/codeigniter4/translations "codeigniter4-translations"). Caminho até a pasta de alteração: `app/Config/App.php` Alterar o campo `public $defaultLocale = 'es'` para `public $defaultLocale = 'pt-br'`.
 - É necessário o PHP versão 7.2 ou mais recente.
 - O PHP vem com as extenções necessárias para rodar o CI4 desabilitadas, para alterar, basta ir na pasta onde foi instalado o `PHP/php.ini ` e descomentar inicialmente as linhas
 ```php

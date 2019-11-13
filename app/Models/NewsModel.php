@@ -12,7 +12,6 @@ class NewsModel extends Model
 
     //Permitir os tempos a serem inseridos atualizados
     protected $allowedFields = ['title', 'slug', 'body'];
-
     protected $useTimestamps = true;
     protected $useSoftDeletes = true;
 
@@ -30,9 +29,6 @@ class NewsModel extends Model
             $this->withDeleted();
             return $this->findAll();
         }
-
-       
-
         return $this->asArray()
             ->where(['id' => $id])
             ->first();
