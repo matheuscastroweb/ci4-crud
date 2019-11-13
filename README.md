@@ -17,7 +17,7 @@ Adicione o PHP ao PATH do seu sistema. Caso ao rodar o `php -v` dê erro de bibl
 extension_dir = "C:\caminho\php\ext"
 ```
 
-Com o PHP Funcionando utilize o comando `php spark serve` dentro da pasta que se encontra o projeto do CI4. Assim, o projeto rodará na sua máquica local.
+Com o PHP Funcionando utilize o comando `$ php spark serve` dentro da pasta que se encontra o projeto do CI4. Assim, o projeto rodará na sua máquica local.
 
 ##### Alterações do CI3 para o  CI4: 
 - Estrutura de pastas
