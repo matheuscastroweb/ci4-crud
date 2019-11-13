@@ -12,7 +12,7 @@ class NewsRest extends ResourceController
 
     public function index()
     {
-       
+      
         return $this->respond($this->model->findAll());
     }
 

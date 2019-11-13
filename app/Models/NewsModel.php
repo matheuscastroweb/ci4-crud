@@ -29,8 +29,6 @@ class NewsModel extends Model
             //$this->withDeleted();
             return $this->findAll();
         }
-        return $this->asArray()
-            ->where(['id' => $id])
-            ->first();
+        return $this->find($id);
     }
 }
