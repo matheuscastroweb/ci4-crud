@@ -44,6 +44,7 @@ class News extends Controller
 
     public function create()
     {
+       
         helper('form');
 
         echo view('templates/header');
