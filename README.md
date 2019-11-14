@@ -44,6 +44,9 @@ Funcionalidade que implementa um recurso de exclusão diferenciado integrado no 
 - Utilização de seeds: 
 Funciolidade para incluir dados de testes no banco de dados  `$ php spark db:seed TestSeeder`.
 
+- Utilização de filtros: 
+Utilizado para criar middlewares de requisições. Caminho `Config/Filters`.
+
 
 ### Banco de dados utilizado
 ```sql
