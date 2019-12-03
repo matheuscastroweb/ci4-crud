@@ -11,6 +11,7 @@
 ```php
 extension=mbstring
 extension=mysqli
+extension=curl
 ```
 Adicione o PHP ao PATH do seu sistema. Caso ao rodar o `$ php -v` dê erro de biblioteca não encontrada, coloque o diretório onde se encontram as libraries no campo:
 ```php
